@@ -1,4 +1,4 @@
-gitbook-plugin-sectionx
+gitbook-plugin-sectionx-awesome
 ===
 
 <!--sec data-title="Introduction" data-id="intro" ces-->

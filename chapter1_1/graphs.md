@@ -69,15 +69,15 @@ La representación habitual es el _Histograma_ ejecutada con la función __hist(
 Se midieron los niveles de colinesterasa en un recuento de eritrocitos de 34 agricultores expuestos a insecticidas agrícolas, obteniéndose los siguientes datos agrupados en intervalos:
 
 
-| $$I_{i}$$ | | $$n_{i}$$ |
-| :--: | | :--: |
-| 7.5 - 9 | | 3 |
-| 9 - 10.5 | | 8 |
-| 10.5 - 12 | | 10 |
-| 12 - 13.5 | | 10 |
-| 13.5 - 15 | | 1 |
-| 15.5 - 16.5 | | 2 |
-|    | | __34__ |
+| $$I_{i}$$  | $$n_{i}$$ |
+| :--:  | :--: |
+| 7.5 - 9  | 3 |
+| 9 - 10.5 | 8 |
+| 10.5 - 12  | 10 |
+| 12 - 13.5  | 10 |
+| 13.5 - 15  | 1 |
+| 15.5 - 16.5  | 2 |
+|    |  __34__ |
 
 
 ```r

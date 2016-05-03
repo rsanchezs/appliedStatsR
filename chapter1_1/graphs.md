@@ -1,6 +1,5 @@
 
 # Representaciones gráficas
-===
 
 Dependiendo del tipo de datos que tengamos podemos realizar diferentes representaciones gráficas:
 
@@ -8,8 +7,8 @@ Dependiendo del tipo de datos que tengamos podemos realizar diferentes represent
 
 Las dos representaciones gráficas habituales para este tipo de datos son el _Diagrama de Sectores_, gráfico que obtendremos don la función __pie()__ y el _Diagrama de Rectángulos_, obtenido con la función __barplot()__.
 
----
-<!--sec data-title="Ejemplo 2.1" data-id="ej2_1 data-show=false" ces-->
+
+<!--sec data-title="Ejemplo 2.1" data-id="ej2_1" data-show=false ces-->
 #### Ejemplo 2.1
 
 En un estudio sobre las razones por las que no fue completado un tratamiento de radiación seguido de cirugía en pacientes con cáncer de cabeza y cuello se obtuvieron los datos dados por la siguiente distribución de frecuencias absolutas,
@@ -55,8 +54,8 @@ barplot(x, names.arg = names, col = colors, main = "Causas")
 ![plot of chunk barchart2_1](figure/barchart2_1-1.png)
 
 Obsérvese que lo único que cambia respecto a la función __pie()__, es que __labels__ no es argumento de la función __barplot()__ sino que, como puede verse, el argumento correspondiente para añadir nombres a las clases, es __names__.
+<!--endsec-->
 
----
 
 ## Datos correspondientes a un carácter cuantitativo agrupado en intervalos
 
@@ -64,9 +63,9 @@ Esta situación rara vez se presenta en Estadística porque la agrupación en in
 
 La representación habitual es el _Histograma_ ejecutada con la función __hist()__ aunque veremos que esta función está pensada para datos sin agrupar.
 
-<!--endsec-->
----
-<!--sec data-title="Ejemplo 2.2" data-id="ej2_2 data-show=false" ces-->
+
+
+<!--sec data-title="Ejemplo 2.2" data-id="ej2_2" data-show=false ces-->
 #### Ejemplo 2.2
 
 Se midieron los niveles de colinesterasa en un recuento de eritrocitos de 34 agricultores expuestos a insecticidas agrícolas, obteniéndose los siguientes datos agrupados en intervalos:
@@ -102,15 +101,13 @@ hist(coli, breaks = breaks, col = colors,
 
 <!--endsec-->
 
----
 
 
 ## Datos correspondientes a un carácter cuantitativo sin agrupar en intervalos
 
 Ésta es la situación habitual que tendremos para un conjunto de datos cuantitativos. Las representaciones gráficas habituales serán, el _Diagrama de barras_ si son pocos los valores distintos de la variable o el _Histograma_ si ha muchos valores distintos. Además, en el caso de frecuencias acumuladas la representación gráfica será el _Diagrama de Frecuencias Acumuladas_, denominado _Función de distribución empírica_ si las frecuencias acumuladas a representar son relativas.
 
----
-<!--sec data-title="Ejemplo 2.3" data-id="ej2_3 data-show=false" ces-->
+<!--sec data-title="Ejemplo 2.3" data-id="ej2_3" data-show=false ces-->
 #### Ejemplo 2.3
 
 Tras encuestar a 25 familias sobre el número de hijos que tenían, se obtuvieron los siguientes datos,
@@ -138,10 +135,9 @@ barplot(freq, names = x, main = "Número de hijos")
 ![plot of chunk barplot2_3](figure/barplot2_3-1.png)
 
 <!--endsec-->
----
 
 
-<!--sec data-title="Ejemplo 2.4" data-id="ej2_4 data-show=false" ces-->
+<!--sec data-title="Ejemplo 2.4" data-id="ej2_4" data-show=false ces-->
 
 #### Ejemplo 2.4
 

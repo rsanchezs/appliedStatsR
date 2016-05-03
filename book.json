@@ -3,7 +3,8 @@
         "mathjax",
         "github",
         "sectionx",
-        "hide-element"
+        "expandable-chapters"
+       
     ],
     "pluginsConfig": {
         "mathjax": {
@@ -12,9 +13,7 @@
         "github": {
           "url":"https://github.com/rsanchezs"
         },
-        "hide-element": {
-          "elements": [".gitbook-link"]
-        }
+        "expandable-chapters":{}
        
     }
 }

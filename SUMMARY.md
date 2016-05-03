@@ -5,8 +5,6 @@ This is the summary of my book.
     * [Datos unidimensionales](chapter1_1/unidimensionalData.md)
         * [Representaciones gráficas](chapter1_1/graphs.md)
         * [Medidas de posición y dispersión](chapter1_1/numericalValues.md)
-        * [Test plugin](chapter1_1/testplugin.md)
-        
     * [Datos bidimensionales](chapter1_2/README.md)
         * [Tabla de datos](chapter1_2/dataTables.md)
 * [Cálculo de probabilidades](chapter2/README.md)

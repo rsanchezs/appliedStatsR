@@ -128,7 +128,9 @@ Como el número de valores distintos de variable es sólo cinco, la representaci
 ```
 
 ![plot of chunk barplot2_3](figure/barplot2_3-1.png)
+
 ---
+
 
 #### Ejemplo 2.4
 

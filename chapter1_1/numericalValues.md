@@ -1,7 +1,7 @@
 
 # Medidas de posición y dispersión
 
-Las principales medidas de posición y dispersión son la _Media_, obtenida con la función __mean__, la _Mediana_ cuyo valor lo obtenemos con __median__, la _Cuasivarianza_ para la que debemos ejecutar la función __var__; su raíz cuadrada, la _Cuasidesviación típica_, obtenida con __sd__ñ, y los _cuantiles_ que se consiguen con __quantile__:
+Las principales medidas de posición y dispersión son la _Media_, obtenida con la función __mean__, la _Mediana_ cuyo valor lo obtenemos con __median__, la _Cuasivarianza_ para la que debemos ejecutar la función __var__; su raíz cuadrada, la _Cuasidesviación típica_, obtenida con __sd__, y los _cuantiles_ que se consiguen con __quantile__.
 
 Un buen resumen de muchas de las medidas de posición se obtiene de una vez con la función __summary__.
 

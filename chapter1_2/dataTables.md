@@ -9,6 +9,7 @@ En ocasiones los datos bidimensionales vienen recogidos en tablas de doble entra
 Se clasificarón 174 individuos de acuerdo con _Sexo_ y su _Estado Civil_, obteniéndose la siguiente tabla:
 
 |    | | Est. civil | | Soltero | | Casado | | Viudo | | Separado ó Divorciado |
+| :--: | | :--: | | :--: | | :--: | | :--: | | :--: |
 | Sexo | |   | |   | |    | |   | |   | 
 | Masculino | | 20 | | 40 | | 5 | | 11 |
 | Femenino | | 29 | | 38 | | 11 | | 20 |
@@ -87,7 +88,10 @@ Podemos optar porque los haga sobrepuestos unos a otros (opción tomada por defe
 ```
 
 ![plot of chunk barplot1](figure/barplot1-1.png)
+
+
 O bien, que lo haga pegados unos a otros, en cuyo caso deberemos utilizar el argumento __beside=T__:
+
 
 
 ```r
@@ -95,7 +99,9 @@ O bien, que lo haga pegados unos a otros, en cuyo caso deberemos utilizar el arg
 ```
 
 ![plot of chunk barplot2](figure/barplot2-1.png)
+
 Si queremos que el gráfico sea de los valores de las columnas, agrupados por los valores de la variable que aparece en las filas, debemos trasponer la matriz que se utiliza como primer argumento de la función:
+
 
 
 ```r
@@ -119,6 +125,7 @@ Un gráfico que nos permite visualizar los datos de la tabla, equivalente al dia
 ```
 
 ![plot of chunk dotchart](figure/dotchart-1.png)
+
 obtenemos el siguiente diagrama el cual vemos es muy similar al diagrama de barras pegadas, girado 90 grados y donde están intercambiadas las barras de los sexos.
 
 

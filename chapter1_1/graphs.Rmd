@@ -127,7 +127,9 @@ barplot(freq, names = x, main = "Número de hijos")
 
 
 ```
+
 ---
+
 
 #### Ejemplo 2.4
 

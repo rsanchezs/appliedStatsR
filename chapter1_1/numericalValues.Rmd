@@ -14,7 +14,7 @@ Las principales medidas de posición y dispersión son la _Media_, obtenida con 
 Un buen resumen de muchas de las medidas de posición se obtiene de una vez con la función __summary__.
 
 ---
-### Ejemplo 2.2
+#### Ejemplo 2.2
 
 Se midieron los niveles de colinesterasa en un recuento de eritrocitos de 34 agricultores expuestos a insecticidas agrícolas, obteniéndose los siguientes datos:
 

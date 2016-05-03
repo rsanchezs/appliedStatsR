@@ -20,122 +20,91 @@ Marca |  13.1  14.9    13.9  13.2   15.1  14.1    13     13.5   12.7   14.2
 
 Si queremos representar estos pares de datos __(x,y)__ debemos utilizar la función __plot(x,y)__:
 
-
-```r
+```{r plot2_3}
 x <- c(21, 32, 15, 40, 27, 18, 26, 50, 33, 51, 36, 16,
        19, 22, 16, 39, 56, 29, 45, 25)
 y <- c(13.2, 12.6, 13, 12.2, 15, 14.8, 14.8, 12.2, 
        13.6, 12.6, 13.1, 14.9, 13.9, 13.2, 15.1, 14.1, 
        13, 13.5, 12.7, 14.2)
 plot(x, y)
-```
 
-![plot of chunk plot2_3](figure/plot2_3-1.png)
+```
 
 A continuación mostramos los diferentes argumentos de la función:
 
-
-```r
+```{r plot2_3_1}
 #Pone titulo y color a los puntos
 
 plot(x, y, main = "nube de puntos", col=3)
+
 ```
 
-![plot of chunk plot2_3_1](figure/plot2_3_1-1.png)
-
-
-```r
+```{r plot2_3_2}
 #Limita el recorrido del gráfico
 
 plot(x, y, xlim = range(x), ylim = range(y))
+
 ```
 
-![plot of chunk plot2_3_2](figure/plot2_3_2-1.png)
-
-
-```r
+```{r plot2_3_3}
 #Pone los puntos como un 2
 
 plot(x, y, pch ="2")
+
 ```
 
-![plot of chunk plot2_3_3](figure/plot2_3_3-1.png)
 
-
-
-```r
+```{r plot2_3_4}
 #Pone los puntos como el símbolo x. Hay del 0 al 18
 
 plot(x, y, pch = 4)
+
 ```
 
-![plot of chunk plot2_3_4](figure/plot2_3_4-1.png)
-
-
-```r
+```{r plot2_3_5}
 #Pone nombre a los ejes
 
 plot(x, y, xlab = "abcisa", ylab = "ordenada")
+
 ```
 
-![plot of chunk plot2_3_5](figure/plot2_3_5-1.png)
-
-
-```r
+```{r plot2_3_6}
 #No pone ningún nombre a los ejes
 
 plot(x, y, xlab = "", ylab = "")
+
 ```
 
-![plot of chunk plot2_3_6](figure/plot2_3_6-1.png)
-
-
-```r
+```{r plot2_3_7}
 #No pone el marco al gráfico
 
 plot(x, y, axes = F)
-```
 
-![plot of chunk plot2_3_7](figure/plot2_3_7-1.png)
+```
 
 Como sabemos, un elemento muy asociado a esta clase de datos es su recta de mínimos cuadrados o de regresión. Podemos obtenerla ejecutando la función __lm__. 
 
-
-```r
+```{r}
 ajus <- lm(y ~ x)
 ajus
-```
 
-```
-## 
-## Call:
-## lm(formula = y ~ x)
-## 
-## Coefficients:
-## (Intercept)            x  
-##    15.05908     -0.04786
 ```
 Obsérverse que hemos obtenido la recta punto-pendiente con ordenada en el origen 15,06 y pendiente -0.048.
 
 Podemos ahora añadirla sin más a la nube de puntos:
 
-
-```r
+```{r regresionLine}
 plot(x, y, main = "Nube de puntos y Recta")
 abline(ajus, col=4)
 legend(35, 14.6, c("Línea de regresión"), lty = c(1), col=4)
-```
 
-![plot of chunk regresionLine](figure/regresionLine-1.png)
+
+```
 
 Como dijimod más arriba si queremos calcular el valor del coeficiente de correlación lineal de Pearson, relacionado con la precisión del ajuste de mínimos cuadrados efectuado, ejecutamos:
 
-
-```r
+```{r}
 cor(x, y)
-```
 
-```
-## [1] -0.6304069
 ```
 

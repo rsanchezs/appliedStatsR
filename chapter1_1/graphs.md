@@ -8,7 +8,7 @@ Dependiendo del tipo de datos que tengamos podemos realizar diferentes represent
 Las dos representaciones gráficas habituales para este tipo de datos son el _Diagrama de Sectores_, gráfico que obtendremos don la función __pie()__ y el _Diagrama de Rectángulos_, obtenido con la función __barplot()__.
 
 ---
-### Ejemplo 2.1
+#### Ejemplo 2.1
 
 En un estudio sobre las razones por las que no fue completado un tratamiento de radiación seguido de cirugía en pacientes con cáncer de cabeza y cuello se obtuvieron los datos dados por la siguiente distribución de frecuencias absolutas,
 
@@ -64,7 +64,7 @@ La representación habitual es el _Histograma_ ejecutada con la función __hist(
 
 ---
 
-### Ejemplo 2.2
+#### Ejemplo 2.2
 
 Se midieron los niveles de colinesterasa en un recuento de eritrocitos de 34 agricultores expuestos a insecticidas agrícolas, obteniéndose los siguientes datos agrupados en intervalos:
 
@@ -103,7 +103,7 @@ Se midieron los niveles de colinesterasa en un recuento de eritrocitos de 34 agr
 Ésta es la situación habitual que tendremos para un conjunto de datos cuantitativos. Las representaciones gráficas habituales serán, el _Diagrama de barras_ si son pocos los valores distintos de la variable o el _Histograma_ si ha muchos valores distintos. Además, en el caso de frecuencias acumuladas la representación gráfica será el _Diagrama de Frecuencias Acumuladas_, denominado _Función de distribución empírica_ si las frecuencias acumuladas a representar son relativas.
 
 ---
-### Ejemplo 2.3
+#### Ejemplo 2.3
 
 Tras encuestar a 25 familias sobre el número de hijos que tenían, se obtuvieron los siguientes datos,
 
@@ -130,7 +130,7 @@ Como el número de valores distintos de variable es sólo cinco, la representaci
 ![plot of chunk barplot2_3](figure/barplot2_3-1.png)
 ---
 
-### Ejemplo 2.4
+#### Ejemplo 2.4
 
 Se midieron los niveles de colinesterasa en un recuento de eritrocitos de 34 agricultores expuestos a insecticidas agrícolas, obteniéndose los siguientes datos:
 

@@ -1,0 +1,2 @@
+
+# Distribución Beta

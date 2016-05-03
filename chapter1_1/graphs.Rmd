@@ -12,13 +12,13 @@ Las dos representaciones gráficas habituales para este tipo de datos son el _Di
 
 En un estudio sobre las razones por las que no fue completado un tratamiento de radiación seguido de cirugía en pacientes con cáncer de cabeza y cuello se obtuvieron los datos dados por la siguiente distribución de frecuencias absolutas,
 
-| _Causas_ | | $$n_{i}$$ |
-| :--: | | :--: |
-| Rehusaron cirugía | | 26 |
-| Rehusaron radiación | | 3 |
-| Empeoraron por una enfermedad ajena al cáncer | | 10 |
-| Otras causas | | 1 |
-|  | | __40__ |
+| _Causas_  | $$n_{i}$$ |
+| :--: |  :--: |
+| Rehusaron cirugía  | 26 |
+| Rehusaron radiación  | 3 |
+| Empeoraron por una enfermedad ajena al cáncer |  10 |
+| Otras causas | 1 |
+|  |  __40__ |
 
 Para obtener el Diagrama de Sectores,
 
@@ -64,15 +64,15 @@ La representación habitual es el _Histograma_ ejecutada con la función __hist(
 Se midieron los niveles de colinesterasa en un recuento de eritrocitos de 34 agricultores expuestos a insecticidas agrícolas, obteniéndose los siguientes datos agrupados en intervalos:
 
 
-| $$I_{i}$$ | | $$n_{i}$$ |
-| :--: | | :--: |
-| 7.5 - 9 | | 3 |
-| 9 - 10.5 | | 8 |
-| 10.5 - 12 | | 10 |
-| 12 - 13.5 | | 10 |
-| 13.5 - 15 | | 1 |
-| 15.5 - 16.5 | | 2 |
-|    | | __34__ |
+| $$I_{i}$$ |  $$n_{i}$$ |
+| :--:  | :--: |
+| 7.5 - 9  | 3 |
+| 9 - 10.5  | 8 |
+| 10.5 - 12  | 10 |
+| 12 - 13.5  | 10 |
+| 13.5 - 15  | 1 |
+| 15.5 - 16.5 | 2 |
+|     | __34__ |
 
 ```{r histogram2_2}
 #Creamos un vector con las marcas de clase
@@ -103,14 +103,15 @@ hist(coli, breaks = breaks, col = colors,
 
 Tras encuestar a 25 familias sobre el número de hijos que tenían, se obtuvieron los siguientes datos,
 
-| $$X_{i}$$ | | $$n_{i}$$ |
-| :--: | | :--: |
-| 0 | | 5 |
-| 1 | | 6 |
-| 2 | | 8 |
-| 3 | | 4 |
-| 4 | | 2 |
-|    | | __25__ |
+| $$X_{i}$$  | $$n_{i}$$ |
+| :--:  | :--: |
+| 0  | 5 |
+| 1  | 6 |
+| 2  | 8 |
+| 3  | 4 |
+| 4  | 2 |
+|     | __25__ |
+
 
 Como el número de valores distintos de variable es sólo cinco, la representación gráfica que procede es el diagrama de barras.
 

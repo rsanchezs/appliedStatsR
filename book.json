@@ -3,7 +3,8 @@
         "mathjax",
         "github",
         "sectionx",
-        "expandable-chapters"
+        "expandable-chapters",
+        "book-summary-scroll-position-saver"
        
     ],
     "pluginsConfig": {

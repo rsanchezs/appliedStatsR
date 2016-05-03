@@ -179,6 +179,7 @@ La función de distribución empírica se obtiene con la siguiente combinación 
 ```
 
 ![plot of chunk distributionFunction](figure/distributionFunction-1.png)
+
 Obsérverse que hemos ordenado los datos con la función __sort()__ y hemos encontrado la distribución de frecuencias relativas acumuladas como (1:n)/n. 
 
 

@@ -8,11 +8,14 @@ En ocasiones los datos bidimensionales vienen recogidos en tablas de doble entra
 
 Se clasificarón 174 individuos de acuerdo con _Sexo_ y su _Estado Civil_, obteniéndose la siguiente tabla:
 
-|    | | Est. civil | | Soltero | | Casado | | Viudo | | Separado ó Divorciado |
-| :--: | | :--: | | :--: | | :--: | | :--: | | :--: | | :--: |
-| Sexo | |   | |   | |    | |   | |   | 
-| Masculino | | 20 | | 40 | | 5 | | 11 |
-| Femenino | | 29 | | 38 | | 11 | | 20 |
+
+
+|  | Est. civil| Soltero |Casado | Viudo | Separado ó divorciado |
+| -- | -- | -- | -- | -- | -- | -- |
+| __Sexo__ |  |  |  |  |  |
+|__ Masculino__ |  | 20 |40 | 5 | 11 |
+| __Femenino__ |  | 29 | 38 | 11 | 20 |
+
 
 Este tipo de datos es tratado por R como una matriz, por lo que primero los incorporaremos, 
 

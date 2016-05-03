@@ -12,13 +12,13 @@ Las dos representaciones gráficas habituales para este tipo de datos son el _Di
 
 En un estudio sobre las razones por las que no fue completado un tratamiento de radiación seguido de cirugía en pacientes con cáncer de cabeza y cuello se obtuvieron los datos dados por la siguiente distribución de frecuencias absolutas,
 
-| _Causas_ | | $$n_{i}$$ |
-| :--: | | :--: |
-| Rehusaron cirugía | | 26 |
-| Rehusaron radiación | | 3 |
-| Empeoraron por una enfermedad ajena al cáncer | | 10 |
-| Otras causas | | 1 |
-|  | | __40__ |
+| _Causas_  | $$n_{i}$$ |
+| :--: |  :--: |
+| Rehusaron cirugía  | 26 |
+| Rehusaron radiación  | 3 |
+| Empeoraron por una enfermedad ajena al cáncer |  10 |
+| Otras causas | 1 |
+|  |  __40__ |
 
 Para obtener el Diagrama de Sectores,
 

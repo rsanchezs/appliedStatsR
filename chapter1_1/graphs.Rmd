@@ -172,6 +172,7 @@ plot(x =sort(x),y = (1:n)/n, type = "s", xlab = "x",
      ylab = "Función de distribución empírica")
 
 ```
+
 Obsérverse que hemos ordenado los datos con la función __sort()__ y hemos encontrado la distribución de frecuencias relativas acumuladas como (1:n)/n. 
 
 

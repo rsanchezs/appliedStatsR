@@ -1,5 +1,6 @@
 
 # Representaciones gráficas
+===
 
 Dependiendo del tipo de datos que tengamos podemos realizar diferentes representaciones gráficas:
 
@@ -25,8 +26,8 @@ Para obtener el Diagrama de Sectores,
 
 
 ```r
-> x <- c(26, 3, 10, 1)
-> pie(x)
+x <- c(26, 3, 10, 1)
+pie(x)
 ```
 
 ![plot of chunk piechart2_1](figure/piechart2_1-1.png)
@@ -36,11 +37,11 @@ Una versión mejorada, sería,
  
 
 ```r
-> # Creamos un vector con los nombres de los sectores
-> names <- c("reh. cirugía", "reh. radiación", "empeoraron o.e.", "otras")
-> # Creamos un vector con los colores
-> colors <- c(2, 3, 4, 5)
-> pie(x, labels = names, col = colors, main = "Causas")
+# Creamos un vector con los nombres de los sectores
+names <- c("reh. cirugía", "reh. radiación", "empeoraron o.e.", "otras")
+# Creamos un vector con los colores
+colors <- c(2, 3, 4, 5)
+pie(x, labels = names, col = colors, main = "Causas")
 ```
 
 ![plot of chunk betterPieChart2_1](figure/betterPieChart2_1-1.png)
@@ -48,7 +49,7 @@ Una versión mejorada, sería,
 Para obtener el _Diagrama de Rectángulos_,
 
 ```r
-> barplot(x, names.arg = names, col = colors, main = "Causas")
+barplot(x, names.arg = names, col = colors, main = "Causas")
 ```
 
 ![plot of chunk barchart2_1](figure/barchart2_1-1.png)
@@ -83,18 +84,18 @@ Se midieron los niveles de colinesterasa en un recuento de eritrocitos de 34 agr
 
 
 ```r
-> #Creamos un vector con las marcas de clase
-> m <- c(8.25, 9.75, 11.25, 12.75, 14.25, 15.75)
-> #Creamos un vector con las frecuencias absolutas
-> freq <- c(3, 8, 10, 10, 1, 2)
-> #Replicamos las marcas de clase
-> coli <- rep(m, freq)
-> #Puntos de corte
-> breaks <- c(7.5, 9, 10.5, 12, 13.5, 15, 16.5)
-> #Vector con los colores de los rectángulos
-> colors <- c(1, 2, 3, 4, 5, 6)
-> hist(coli, breaks = breaks, col = colors,
-+      main = "Niveles de colinesterasa")
+#Creamos un vector con las marcas de clase
+m <- c(8.25, 9.75, 11.25, 12.75, 14.25, 15.75)
+#Creamos un vector con las frecuencias absolutas
+freq <- c(3, 8, 10, 10, 1, 2)
+#Replicamos las marcas de clase
+coli <- rep(m, freq)
+#Puntos de corte
+breaks <- c(7.5, 9, 10.5, 12, 13.5, 15, 16.5)
+#Vector con los colores de los rectángulos
+colors <- c(1, 2, 3, 4, 5, 6)
+hist(coli, breaks = breaks, col = colors,
+     main = "Niveles de colinesterasa")
 ```
 
 ![plot of chunk histogram2_2](figure/histogram2_2-1.png)
@@ -127,11 +128,11 @@ Como el número de valores distintos de variable es sólo cinco, la representaci
 
 
 ```r
-> # Valores posibles
-> x <- c(0, 1, 2, 3, 4)
-> # Frecuencias 
-> freq <- c(5, 6, 8, 4, 2)
-> barplot(freq, names = x, main = "Número de hijos")
+# Valores posibles
+x <- c(0, 1, 2, 3, 4)
+# Frecuencias 
+freq <- c(5, 6, 8, 4, 2)
+barplot(freq, names = x, main = "Número de hijos")
 ```
 
 ![plot of chunk barplot2_3](figure/barplot2_3-1.png)
@@ -152,13 +153,13 @@ A continuación mostramos como representar un histograma con los datos de arriba
 
 
 ```r
-> x <- c(10.6, 12.5, 11.1, 9.2, 11.5, 9.9, 
-+        11.9, 11.6, 14.9, 12.5, 12.5, 12.5,
-+        12.3, 12.2, 10.8, 16.5, 15, 10.3, 
-+        12.4, 9.1, 7.8, 11.3, 12.3, 9.7, 12,
-+        11.8, 12.7, 11.4, 9.3, 8.6, 8.5, 10.1,
-+        12.4, 11.1, 10.2)
-> hist(x)
+x <- c(10.6, 12.5, 11.1, 9.2, 11.5, 9.9, 
+       11.9, 11.6, 14.9, 12.5, 12.5, 12.5,
+       12.3, 12.2, 10.8, 16.5, 15, 10.3, 
+       12.4, 9.1, 7.8, 11.3, 12.3, 9.7, 12,
+       11.8, 12.7, 11.4, 9.3, 8.6, 8.5, 10.1,
+       12.4, 11.1, 10.2)
+hist(x)
 ```
 
 ![plot of chunk barchar2_4](figure/barchar2_4-1.png)
@@ -167,14 +168,14 @@ Si queremos controlar los intervalos del histograma podemos fijar simplemente _b
 
 
 ```r
-> x <- c(10.6, 12.5, 11.1, 9.2, 11.5, 9.9, 
-+        11.9, 11.6, 14.9, 12.5, 12.5, 12.5,
-+        12.3, 12.2, 10.8, 16.5, 15, 10.3, 
-+        12.4, 9.1, 7.8, 11.3, 12.3, 9.7, 12,
-+        11.8, 12.7, 11.4, 9.3, 8.6, 8.5, 10.1,
-+        12.4, 11.1, 10.2)
-> n <- length(x)
-> hist(x, breaks = n)
+x <- c(10.6, 12.5, 11.1, 9.2, 11.5, 9.9, 
+       11.9, 11.6, 14.9, 12.5, 12.5, 12.5,
+       12.3, 12.2, 10.8, 16.5, 15, 10.3, 
+       12.4, 9.1, 7.8, 11.3, 12.3, 9.7, 12,
+       11.8, 12.7, 11.4, 9.3, 8.6, 8.5, 10.1,
+       12.4, 11.1, 10.2)
+n <- length(x)
+hist(x, breaks = n)
 ```
 
 ![plot of chunk barchartWithIntervals](figure/barchartWithIntervals-1.png)
@@ -183,9 +184,9 @@ La función de distribución empírica se obtiene con la siguiente combinación 
 
 
 ```r
-> n <- length(x)
-> plot(x =sort(x),y = (1:n)/n, type = "s", xlab = "x",
-+      ylab = "Función de distribución empírica")
+n <- length(x)
+plot(x =sort(x),y = (1:n)/n, type = "s", xlab = "x",
+     ylab = "Función de distribución empírica")
 ```
 
 ![plot of chunk distributionFunction](figure/distributionFunction-1.png)

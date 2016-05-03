@@ -8,6 +8,7 @@ Dependiendo del tipo de datos que tengamos podemos realizar diferentes represent
 Las dos representaciones gráficas habituales para este tipo de datos son el _Diagrama de Sectores_, gráfico que obtendremos don la función __pie()__ y el _Diagrama de Rectángulos_, obtenido con la función __barplot()__.
 
 ---
+<!--sec data-title="Ejemplo 2.1" data-id="ej2_1" data-show=false ces-->
 #### Ejemplo 2.1
 
 En un estudio sobre las razones por las que no fue completado un tratamiento de radiación seguido de cirugía en pacientes con cáncer de cabeza y cuello se obtuvieron los datos dados por la siguiente distribución de frecuencias absolutas,
@@ -53,7 +54,7 @@ Para obtener el _Diagrama de Rectángulos_,
 ![plot of chunk barchart2_1](figure/barchart2_1-1.png)
 
 Obsérvese que lo único que cambia respecto a la función __pie()__, es que __labels__ no es argumento de la función __barplot()__ sino que, como puede verse, el argumento correspondiente para añadir nombres a las clases, es __names__.
-
+<!--endsec-->
 ---
 
 ## Datos correspondientes a un carácter cuantitativo agrupado en intervalos

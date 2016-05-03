@@ -2,7 +2,7 @@
     "plugins": [
         "mathjax",
         "github",
-        "gitbook-plugin-sectionx"
+        "sectionx"
     ],
     "pluginsConfig": {
         "mathjax": {

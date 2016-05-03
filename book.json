@@ -1,17 +1,10 @@
 {
     "plugins": [
         "mathjax",
-        "github-buttons",
-        "github"
+        "github",
+        "gitbook-plugin-sectionx"
     ],
     "pluginsConfig": {
-        "github-buttons": {
-          "repo": "rsanchezs/",
-          "types": [
-            "star",
-            "watch"
-         ]
-        },
         "mathjax": {
             "forceSVG": true
         },

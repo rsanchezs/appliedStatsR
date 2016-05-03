@@ -1,6 +1,11 @@
 {
     "plugins": [
-        "-mathjax"
+        "mathjax",
+        "github-buttons"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "mathjax": {
+            "forceSVG": true
+        }
+    }
 }

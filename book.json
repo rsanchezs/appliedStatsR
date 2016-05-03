@@ -1,18 +1,23 @@
 {
     "plugins": [
         "mathjax",
-        "github-buttons"
+        "github-buttons",
+        "github"
     ],
     "pluginsConfig": {
+        "github-buttons": {
+          "repo": "rsanchezs/",
+          "types": [
+            "star",
+            "watch"
+         ]
+        },
         "mathjax": {
             "forceSVG": true
         },
-        "github-buttons": {
-        "repo": "rsanchezs/",
-        "types": [
-          "star",
-          "watch"
-         ]
+        "github": {
+          "url":"https://github.com/rsanchezs"
         }
+       
     }
 }

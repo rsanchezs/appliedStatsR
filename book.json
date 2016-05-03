@@ -6,6 +6,13 @@
     "pluginsConfig": {
         "mathjax": {
             "forceSVG": true
+        },
+        "github-buttons": {
+        "repo": "rsanchezs/",
+        "types": [
+          "star",
+          "watch"
+         ]
         }
     }
 }

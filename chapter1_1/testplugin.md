@@ -1,3 +1,14 @@
+
+# Representaciones gráficas
+
+Dependiendo del tipo de datos que tengamos podemos realizar diferentes representaciones gráficas:
+
+## Datos correspondientes a un carácter cualitativo
+
+Las dos representaciones gráficas habituales para este tipo de datos son el _Diagrama de Sectores_, gráfico que obtendremos don la función __pie()__ y el _Diagrama de Rectángulos_, obtenido con la función __barplot()__.
+
+
+
 gitbook-plugin-sectionx-awesome
 ===
 

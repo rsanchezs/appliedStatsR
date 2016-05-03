@@ -2,7 +2,8 @@
     "plugins": [
         "mathjax",
         "github",
-        "sectionx"
+        "sectionx",
+        "hide-element"
     ],
     "pluginsConfig": {
         "mathjax": {
@@ -10,6 +11,9 @@
         },
         "github": {
           "url":"https://github.com/rsanchezs"
+        },
+        "hide-element": {
+          "elements": [".gitbook-link"]
         }
        
     }

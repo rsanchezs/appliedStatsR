@@ -11,7 +11,7 @@ Una característica relacionada con la bondad de ajuste de esta recta a los dato
 Tras preguntar a 20 personas con aficiones atléticas la marca que poseían en 100 metros lisos y las horas semanales que, por término medio, dedicaban a entrenar se obtuvieron los siguientes datos
 
 
-| __Horas__ | 21 | 32 | 15 | 40 | 5:0 | 27 | 18 | 26 | 50 | 33 | 51 |
+| __Horas__ | 21 | 32 | 15 | 40 | 27 | 18 | 26 | 50 | 33 | 51 |
 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 | __Marca__ | 13.2 | 12.6 | 13 | 12.2 | 15 | 14.8 | 14.8 | 12.2 | 13.6 | 12.6 |
 

@@ -5,8 +5,8 @@ Analizaremos aquí las representaciones gráficas de pares de datos. En concreto
 
 Una característica relacionada con la bondad de ajuste de esta recta a los datos que forman la nube de puntos es el _Coeficiente de correlación lineal de Pearson_. Éste se calcula con la función __cor__.
 
----
-### Ejemplo 2.4
+<!--sec data-title="Ejemplo 2.4" data-id="ej2_4" ces-->
+
 
 Tras preguntar a 20 personas con aficiones atléticas la marca que poseían en 100 metros lisos y las horas semanales que, por término medio, dedicaban a entrenar se obtuvieron los siguientes datos
 
@@ -138,4 +138,4 @@ cor(x, y)
 ```
 ## [1] -0.6304069
 ```
-
+<!--endsec-->

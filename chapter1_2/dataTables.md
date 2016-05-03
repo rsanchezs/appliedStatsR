@@ -3,8 +3,8 @@
 
 En ocasiones los datos bidimensionales vienen recogidos en tablas de doble entrada porque las variables toman unos pocos valores dintintos y el número total de datos es grande.
 
----
-#### Ejemplo 2.5
+<!--sec data-title="Ejemplo 2.5" data-id="ej2_5" ces-->
+
 
 Se clasificarón 174 individuos de acuerdo con _Sexo_ y su _Estado Civil_, obteniéndose la siguiente tabla:
 
@@ -127,7 +127,7 @@ Un gráfico que nos permite visualizar los datos de la tabla, equivalente al dia
 ![plot of chunk dotchart](figure/dotchart-1.png)
 
 obtenemos el siguiente diagrama el cual vemos es muy similar al diagrama de barras pegadas, girado 90 grados y donde están intercambiadas las barras de los sexos.
-
+<!--endsec-->
 
 
 

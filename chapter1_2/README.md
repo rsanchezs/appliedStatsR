@@ -10,13 +10,17 @@ Una característica relacionada con la bondad de ajuste de esta recta a los dato
 
 Tras preguntar a 20 personas con aficiones atléticas la marca que poseían en 100 metros lisos y las horas semanales que, por término medio, dedicaban a entrenar se obtuvieron los siguientes datos
 
-Horas |  21     32     15     40     27     18     26     50     33     51 
-.-------------------------------------------------------------------------
-Marca |  13.2  12.6    13    12.2   15    14.8    14.8   12.2   13.6   12.6
 
-Horas |  36     16     19     22     16     39     56     29     45     25 
-.-------------------------------------------------------------------------
-Marca |  13.1  14.9    13.9  13.2   15.1  14.1    13     13.5   12.7   14.2
+
+| Horas | 21 | 32 | 15 | 40 | 27 | 18 | 26 | 50 | 33 | 51 |
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| __Marca__ | 13.2 | 12.6 | 13 | 12.2 | 15 | 14.8 | 14.8 | 12.2 | 13.6 | 12.6 |
+
+| Horas| 36 | 16 | 19 | 22 | 16 | 39 | 56 | 29 |45 | 25 |
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| __Marca__ | 13.1 | 14.9 | 13.9 | 13.2 | 15.1 | 14.1 | 13 | 13.5 | 12.7 | 14.2 |
+
+
 
 Si queremos representar estos pares de datos __(x,y)__ debemos utilizar la función __plot(x,y)__:
 

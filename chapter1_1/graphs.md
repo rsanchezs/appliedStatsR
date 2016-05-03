@@ -111,14 +111,14 @@ hist(coli, breaks = breaks, col = colors,
 
 Tras encuestar a 25 familias sobre el número de hijos que tenían, se obtuvieron los siguientes datos,
 
-| $$X_{i}$$ | | $$n_{i}$$ |
-| :--: | | :--: |
-| 0 | | 5 |
-| 1 | | 6 |
-| 2 | | 8 |
-| 3 | | 4 |
-| 4 | | 2 |
-|    | | __25__ |
+| $$X_{i}$$  | $$n_{i}$$ |
+| :--:  | :--: |
+| 0  | 5 |
+| 1  | 6 |
+| 2  | 8 |
+| 3  | 4 |
+| 4  | 2 |
+|     | __25__ |
 
 Como el número de valores distintos de variable es sólo cinco, la representación gráfica que procede es el diagrama de barras.
 

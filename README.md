@@ -1,4 +1,21 @@
-# Book Title
-#### by Your Name
+# Estadística aplicada con R
 
-Replace with an introduction of your book.
+![](appliedstats.jpg)
+
+
+
+
+
+
+
+
+
+
+#### Rubén Sánchez Sancho
+
+
+
+
+
+
+

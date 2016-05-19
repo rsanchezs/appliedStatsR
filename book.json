@@ -1,11 +1,13 @@
 {
     "plugins": [
-        "mathjax",
         "github",
         "sectionx",
         "expandable-chapters",
         "book-summary-scroll-position-saver",
-        "youtubex"
+        "youtubex",
+        "video",
+        "ga",
+        "mathjax@1.0.2"
        
     ],
     "pluginsConfig": {
@@ -16,7 +18,11 @@
           "url":"https://github.com/rsanchezs"
         },
         "expandable-chapters":{},
-        "book-summary-scroll-position-saver":{}
+        "book-summary-scroll-position-saver":{},
+        "ga": {
+            "token": "UA-48754828-6"
+        }
+
         
        
     }
